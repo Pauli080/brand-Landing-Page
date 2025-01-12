@@ -1,0 +1,295 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", serif;
+     /* font-weight: 500; */
+     
+}
+
+
+
+
+
+
+.profile-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem; */
+    text-decoration: none;
+    color: black;
+    width: 10rem;
+    height: 4rem;
+}
+
+.header__001 {
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin-top: 2em;
+    
+}
+
+
+
+.header_nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1rem;
+    /* gap: 4rem; */
+    border-radius: 25px;
+    margin-bottom: 4rem;
+    backdrop-filter: blur(100px);
+    background: #e8e5e480;
+    
+}
+
+.profile {
+    background: white;
+    height: 2.4rem;
+    width: 8rem;
+    border-radius: 20px;
+    /* margin-left: 5px; */
+}
+
+.brand-and-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.3rem;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    
+}
+
+.image {
+    width: 50%;
+    height: 33rem;
+    border-radius: 20px;
+}
+
+.image__2 {
+    width: 12rem;
+    margin: 1em;
+    filter: invert();
+}
+
+.image__3 {
+    width: 12rem;
+    margin: 1em;
+}
+
+.eurosport {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+.design-director__p {
+    margin: 1rem;
+    font-size: 1rem;
+    color: #42404080;
+}
+
+.design-director-p {
+    margin: 1rem;
+    background: #e8e5e480;
+    font-size: 1rem;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 20px;
+}  
+
+.design-director h3 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 8rem 0rem 8rem 0rem;
+    width: 100%;
+}
+
+.about p {
+    border-radius: 20px;
+    padding: 0.7rem;
+    background: #e8e5e480;
+}
+
+.about h3 {
+    width: 53rem;
+    font-size: 3rem;
+}
+
+.about h2 {
+    
+    font-size: 3rem;
+}
+
+.present_1 {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: 3rem;
+    text-align: center;
+}
+
+.together {
+    width: 100%;
+    display: flex;
+    font-size: 2.6rem;
+    text-align: center;
+    justify-content: center;
+    margin: 13rem 0rem 7rem 0rem;
+    
+}
+
+.touch {
+    color: #ddddd5;
+}
+
+.together h4 {
+    width: 25rem;
+}
+
+.ft-image {
+    width: 3rem;
+    height: 3rem;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.twitter {
+    display: flex;
+    gap: 30px;
+}
+
+.harris {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 1080px) {
+    .header_nav {
+    display: flex;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1rem;
+    /* right: 22rem;
+    top: 5; */
+   
+}
+
+.brand-and-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
+    
+}
+
+
+.profile-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.image {
+    width: 28rem;
+    height: 25rem;
+    border-radius: 20px;
+}
+
+.about h3 {
+    width: 35rem;
+    font-size: 2.5rem;
+}
+
+.about h2 {
+    
+    font-size: 2.5rem;
+}
+
+.design-director h3 {
+    margin: 1rem;
+    font-size: 1.3rem;
+    
+}
+
+.design-director__p {
+    margin: 1rem;
+    font-size: 1rem;
+    color: #42404080;
+}
+
+.design-director-p {
+    font-size: 1rem;
+   
+}  
+
+img {
+    width: 10rem;
+    
+    
+    margin: 1em;
+}
+
+}

@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem; */
+    text-decoration: none;
+    color: black;
+    width: 20rem;
+    padding: 1em;
+    /* height: 1rem; */
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1rem;
+    /* gap: 4rem; */
+    border-radius: 25px;
+    margin-bottom: 4rem;
+    position: fixed;
+    top: 2rem;
+    right: 34rem;
+    backdrop-filter: blur(100px);
+    background: #e8e5e480;
+}
+
+.contact {
+    background: white;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.together {
+    width: 100%;
+    display: flex;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    margin: 10rem 0rem 10rem 0rem;
+    
+}
+
+.touch {
+    color: #ddddd5;
+}
+
+.together h1 {
+    width: 50rem;
+}
+
+.ft-image {
+    width: 2rem;
+    height: 2rem;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+
+
+/* video {
+    height: 20em;
+    width: 20em;
+    border: 6px solid red;
+} */
+
+.twitter {
+    display: flex;
+    gap: 30px;
+}
+
+.harris {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1080px) {
+    .header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1rem;
+    /* gap: 4rem; */
+    border-radius: 25px;
+    margin-bottom: 4rem;
+    position: fixed;
+    top: 2rem;
+    right: 22rem;
+    backdrop-filter: blur(100px);
+    background: #e8e5e480;
+}
+
+.together {
+    width: 100%;
+    display: flex;
+    font-size: 1.6rem;
+    text-align: center;
+    justify-content: center;
+    margin: 13rem 0rem 5rem 0rem;
+    
+}
+
+.together h1 {
+    width: 30rem;
+}
+
+}
