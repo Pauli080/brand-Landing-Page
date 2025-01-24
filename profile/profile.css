@@ -112,6 +112,14 @@ header a {
     align-self: center; 
 } 
 
+.design-director {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
 
 .design-director__p {
     margin: 1rem;
@@ -124,6 +132,7 @@ header a {
     background: #e8e5e480;
     font-size: 1rem;
     color: black;
+    width: 10rem;
     padding: 0.5rem;
     border-radius: 20px;
 }  
